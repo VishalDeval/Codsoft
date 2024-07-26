@@ -241,6 +241,7 @@ section {
     font-weight: 900;
     font-family: "Kaushan Script";
     text-shadow: none;
+    overflow: visible;
 }
 
 .p1p1 {
@@ -531,8 +532,6 @@ footer {
     }
     a{
         display: none;
-        
-
     }
     nav{
         z-index: 3;
@@ -580,7 +579,7 @@ footer {
         height:65vh ;
     }
     .MyImg{
-        height:55vw;
+        height:65vh;
         margin-top: -50px;
         padding-right: 0px;
     }

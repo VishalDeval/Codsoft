@@ -22,6 +22,14 @@ document.getElementsByClassName('page4child')[2].addEventListener('click',functi
 document.getElementsByClassName('hamburger')[0].addEventListener('click',function(){
     document.getElementsByTagName('nav')[0].classList.toggle('expanded');
 })
-document.getElementsByClassName('page1')[0].addEventListener('click',function(){
-    document.getElementsByTagName('nav')[0].classList.toggle('expanded');
-})
+document.addEventListener('click', function(event) {
+    const navbar = document.getElementsByTagName('nav')[0];
+    if (!navbar.contains(event.target)) {
+        navbar.classList.remove('expanded');
+    }
+});
+for (let j=1;j<5;j++){
+    document.getElementsByTagName('li')[j].addEventListener('click',function(){
+        document.getElementsByTagName('nav')[0].classList.remove('expanded');  
+    })
+}
