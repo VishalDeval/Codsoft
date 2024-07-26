@@ -579,8 +579,8 @@ footer {
         height:65vh ;
     }
     .MyImg{
-        height:57vh;
-        margin-top: -50px;
+        height:40vh;
+        margin-top: -70px;
         padding-right: 0px;
     }
     .mydiv{
@@ -622,7 +622,7 @@ footer {
     }
     .card{
         margin: 40px;
-        width: 60%;
+        width: 80%;
         height: 30vh;
         background-color: #fff;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -636,6 +636,8 @@ footer {
     }
     .box3{
         margin-top: 10px;
+        width: 80%;
+        margin: 2vh 9vw;
     }
     .page4{
         flex-direction: column;
