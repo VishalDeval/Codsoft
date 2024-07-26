@@ -579,7 +579,7 @@ footer {
         height:65vh ;
     }
     .MyImg{
-        height:65vh;
+        height:57vh;
         margin-top: -50px;
         padding-right: 0px;
     }
@@ -589,6 +589,31 @@ footer {
         justify-content: center;
         margin: 0px 0px;
         padding: 0px 0px;
+    }
+    
+    .instagram {
+        height: 20vh;
+        scale: 1.1;
+        transition: transform .5s ease-in-out;
+        filter: drop-shadow(0 0 5px rgba(151, 145, 145, 0.696));
+    }
+
+    .github {
+        height: 10vh;
+        transition: transform .5s ease-in-out;
+        filter: drop-shadow(0 0 5px rgba(151, 145, 145, 0.696));
+    }
+
+    .linkden {
+        height: 8vh;
+        transition: transform .5s ease-in-out;
+        filter: drop-shadow(0 0 5px rgba(151, 145, 145, 0.696));
+    }
+
+    .telegram {
+        height: 25vh;
+        transition: transform .5s ease-in-out;
+        filter: drop-shadow(0 0 5px rgba(151, 145, 145, 0.696));
     }
     .page3{
         flex-direction: column;
