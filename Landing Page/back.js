@@ -43,7 +43,7 @@ gsap.from("#e",{
 gsap.to("#headline",{
     translateX:(-1800),
     duration:15,
-    delay:.5,
+    delay:.1,
     repeat:-1,
     yoyo:true,
     ease: "sine.inOut",
@@ -157,7 +157,7 @@ document.addEventListener('click', function(event) {
     }
 });
 
-for (let j=1;j<4;j++){
+for (let j=0;j<4;j++){
     document.getElementsByTagName('h3')[j].addEventListener('click',function(){
         document.getElementsByClassName('menu')[0].classList.remove('expanded');  
     })
