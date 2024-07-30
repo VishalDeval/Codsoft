@@ -318,6 +318,7 @@ footer p{
         display: inline-block;
         filter: invert();
         height: 40px;
+        margin-left: 110px;
     }
     .navAdjust.expanded{
         width:60vh;
@@ -325,13 +326,17 @@ footer p{
         height: 80vh;
         backdrop-filter: blur(2px);
         display: block;
-        background-color: rgba(255, 255, 255, 0.879);
+        background-color: rgba(0, 0, 0, 0.555);
         z-index: 3;
         border-radius: 20px;
         a{
             display: inline-block;
-            font-size: 5vmax;
+            font-size: 4vmax;
             padding: 20px 20px;
+            color:#F3F3F3;
+        }
+        .ham{
+            filter:none;
         }
     }
     a{
@@ -467,7 +472,7 @@ footer p{
         color: #1B1A22;
         border-radius: 5px;
         font-weight: 600;
-        font-size: 3.5vmax;
+        font-size: 4vmax;
         background-color:#ffffff ;
         padding: 0px 10px;
         font-family: gilroy;
@@ -483,14 +488,14 @@ footer p{
     }
     #dance{
         height: 21vmax;
-        margin-left: -30px;
+        margin-left: -50px;
     }
     .danceText{
         color: #1B1A22;
         margin: 10px;
         border-radius: 10px;
         font-weight: 600;
-        font-size: 3.5vmax;
+        font-size: 4vmax;
         background-color:#B8FF63 ;
         padding: 0px 5px;
         font-family: gilroy;
@@ -618,7 +623,7 @@ footer p{
     footer p{
         background-color: #ffffff;
         font-weight: 900;
-        font-size: 4vmax;
+        font-size: 3.2vmax;
         font-family: india;
         border-radius: 20px;
         padding: 10px 10px;
