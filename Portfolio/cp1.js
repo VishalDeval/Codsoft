@@ -19,6 +19,9 @@ document.getElementsByClassName('page4child')[1].addEventListener('click',functi
 document.getElementsByClassName('page4child')[2].addEventListener('click',function(){
     open('https://vishaldeval.github.io/To-Do-List/')
 })
+document.getElementsByClassName('page4child')[3].addEventListener('click',function(){
+    open('https://vishaldeval.github.io/Codsoft/Landing%20Page/')
+})
 document.getElementsByClassName('hamburger')[0].addEventListener('click',function(){
     document.getElementsByTagName('nav')[0].classList.toggle('expanded');
 })

@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Playwrite+CL:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Playwrite+CL:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-ExtraBold.otf);
+}
+* {
+    margin: -2px;
+    padding: 0px;
+    font-family: gilroy;
+}
 @keyframes move {
     20% {
         transform: translate(20px, 50px);
@@ -98,10 +105,7 @@ body {
     animation: blink 6s infinite;
 }
 
-* {
-    margin: -2px;
-    padding: 0px;
-}
+
 
 body {
     background-color: white;
@@ -252,7 +256,7 @@ section {
 
 .p1p2 {
     font-size: 20px;
-    font-family: Playwrite HR;
+   
 }
 
 p {
@@ -274,7 +278,6 @@ p {
 #info{
     font-size:2.1vw;
     text-align: center;
-    font-family: playwrite hr;
 }
 
 .socialmedia {
@@ -400,7 +403,8 @@ p {
 }
 .page4child{
     display: FLEX;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
     align-items: center;
     font-size: 30px;
     font-weight: 700;
@@ -501,6 +505,15 @@ footer {
     background-color: rgb(32, 31, 31);
     color: rgb(196, 230, 244);
     border-radius: 16px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    font-size: 100%;
+    text-decoration: none;
+    color: white;
 }
 #page5{
     display:flex;
@@ -530,7 +543,7 @@ footer {
         filter: invert();
         align-self: center;
     }
-    a{
+    li a{
         display: none;
     }
     nav{
@@ -544,7 +557,7 @@ footer {
     }
     nav.expanded{
         height: 270px;
-        a{
+        li a{
             display: inline-block;
         }
         ul{
