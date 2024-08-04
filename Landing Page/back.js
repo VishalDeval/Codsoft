@@ -23,7 +23,7 @@ tl.from("#o",{
     repeat:-1,
 })
 
-gsap.to("#i",{
+gsap.from("#i",{
     rotateX:180,
     duration:1.5,
     delay:3,
@@ -41,11 +41,10 @@ gsap.from("#e",{
 })
 
 gsap.to("#headline",{
-    translateX:(-1800),
-    duration:15,
+    translateX:(-3500),
+    duration:20,
     delay:.1,
     repeat:-1,
-    yoyo:true,
     ease: "sine.inOut",
 })
 gsap.to("#location",{
@@ -149,6 +148,13 @@ gsap.from("#page3text",{
 })
 document.getElementsByClassName('ham')[0].addEventListener('click',function(){
     document.getElementsByClassName('menu')[0].classList.toggle('expanded');
+    gsap.from(("a"),{
+        x:100,
+        duration:.5,
+        delay:.1,
+        stagger:.3,
+        opacity:0,
+    })
 })
 document.addEventListener('click', function(event) {
     const navbar = document.getElementsByClassName('menu')[0];
@@ -162,3 +168,6 @@ for (let j=0;j<4;j++){
         document.getElementsByClassName('menu')[0].classList.remove('expanded');  
     })
 }
+document.getElementById('see').addEventListener('click',function(){
+    open('https://maps.app.goo.gl/Vj3hGMmaYtynLTv6A')
+})

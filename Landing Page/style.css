@@ -100,7 +100,7 @@ section{
     font-family: india;
     padding: 20px 20px;
     font-weight: 600;
-    translate: 2000px;
+    translate: 3500px;
 }
 #headlineParent{
     background-color: #B8FF63;
@@ -155,7 +155,7 @@ section{
     color: #1B1A22;
     border-radius: 5px;
     font-weight: 600;
-    font-size: 3.5vmax;
+    font-size: 4vmax;
     background-color:#ffffff ;
     padding: 0px 10px;
     font-family: gilroy;
@@ -177,7 +177,7 @@ section{
     margin: 10px;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 3.5vmax;
+    font-size: 4vmax;
     background-color:#B8FF63 ;
     padding: 0px 10px;
     font-family: gilroy;
@@ -219,7 +219,7 @@ section{
     display: none;
 }
 #page4 div{
-    transform: translateX(400px);
+    transform: translateX(200px);
 }
 .cardimg{
     width: 40vmax;
@@ -252,10 +252,24 @@ section{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+#see{
+    cursor:grab;
+    text-decoration: underline; 
+    font-size: 3vmax;
+    margin:-10px 60px;
+    position: absolute;
+    z-index: 6;
+    font-family: gilroy;
+}
 iframe{
     height: 35vmax;
     width: 45vmax;
+    border: 0;
+    border-radius: 20px; 
+    filter: drop-shadow(0px 0px 10px white);
+    margin: 50px 50px;
 }
+
 #map{
     color: #000000;
     font-size: 9vmax;
@@ -319,6 +333,7 @@ footer p{
         filter: invert();
         height: 40px;
         margin-left: 110px;
+        cursor: grab;
     }
     .navAdjust.expanded{
         width:60vh;
@@ -416,7 +431,7 @@ footer p{
         font-family: india;
         padding: 20px 20px;
         font-weight: 600;
-        translate: 2000px;
+        transform:translateX(200);
     }
     #headlineParent{
         background-color: #B8FF63;
@@ -576,6 +591,15 @@ footer p{
         overflow-x: hidden;
         overflow-y: hidden;
         height: 75vmax;
+    }
+    #see{
+        cursor:grab;
+        text-decoration: underline;
+         font-size: 3vmax;
+         margin:0px 60px;
+         position: absolute;
+         z-index: 6;
+         font-family: gilroy;
     }
     iframe{
         height: 35vmax;
